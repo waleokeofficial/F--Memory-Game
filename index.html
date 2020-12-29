@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" width="device-width initial-scale=1">
+	<title>Memory Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body>
+	<h3>Score: <span id="result"></span></h3>
+	<div class="grid">
+		
+	</div>
+
+
+	<script type="text/javascript"type="text/css" src="links/bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/bootstrap.js" rel="stylesheet"></script> 
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- // document.addEventListener('DOMContentLoaded', () => {
+	// 	const cardArray = [
+	// 		{
+	// 			name: 'berry',
+	// 			img: 'images/berry.png'
+	// 		},
+	// 		{
+	// 			name: 'berry',
+	// 			img: 'images/berry.png'
+	// 		},
+	// 		{
+	// 			name: 'grape',
+	// 			img: 'images/grape.png'
+	// 		},
+	// 		{
+	// 			name: 'grape',
+	// 			img: 'images/grape.png'
+	// 		},
+	// 		{
+	// 			name: "papaya.png",
+	// 			img: "images/papaya.png"
+	// 		},
+	// 		{
+	// 			name: "papaya.png",
+	// 			img: "images/papaya.png"
+	// 		},
+	// 		{
+	// 			name: "tangerine",
+	// 			img: "images/tangerine.png"
+	// 		},
+	// 		{
+	// 			name: "tangerine",
+	// 			img: "images/tangerine.png"
+	// 		},
+	// 		{
+	// 			name: "instagram",
+	// 			img: "images/instagram.png"
+	// 		},
+	// 		{
+	// 			name: "instagram",
+	// 			img: "images/instagram.png"
+	// 		},
+	// 		{
+	// 			name: "gift",
+	// 			img: "images/gift.png"
+	// 		},
+	// 		{
+	// 			name: "gift",
+	// 			img: "images/gift.png"
+	// 		},
+	// 	]
+	
+	// cardArray.sort(() => 0.5 - Math.random());
+	// var grid = document.querySelector(".grid");
+	// 	let cardsChosen = [];
+	// 	let cardsChosenId = [];
+	// 	let cardsWon =[];
+	// 	let displayresult = document.querySelector('#display');
+	
+	// 	function createBoard(){
+	// 		for (let i=0; i<cardArray.length; i++){
+	// 			var card = document.createElement("img");   // <img id="card" data-id="i" src="images/blank.png">
+	// 			card.setAttribute('src','images/blank.png');
+	// 			card.setAttribute('data-id', i);
+	// 			card.addEventListener("click", flipcard);
+	// 			grid.appendChild(card);    
+	// 			console.log(card);
+	// 		}
+	// 	}
+	// createBoard();
+	// console.log(cardArray);
+	
+	// function checkMatches(){
+	// 	var cards = document.querySelectorAll('img');
+	// 	const optionOneId = cardsChosenId[0];
+	// 	const optionTwoId = cardsChosenId[1];
+	
+	// 	if (cardsChosen[0] === cardsChosen[1]){
+	// 		alert("You found a Match");
+	// 		cards[optionOneId].setAttribute('src', 'images/white.png');
+	// 		cards[optionTwoId].setAttribute('src',' images/white.png');
+	// 		cardsWon.push(cardsChosen);
+	// 	}
+	// 	else {
+	// 		cards[optionOneId].setAttribute('src', 'images/blank.png');
+	// 		cards[optionTwoId].setAttribute('src', 'images/blank.png');
+	// 		alert("Sorry, Try again!!!");		
+	// 	}
+	// 	cardsChosen = [];
+	// 	cardsChosenId = [];
+	// 	resultdisplay.textContent = cardsWon.length;
+	// 	if( cardsWon.length === cardArray.length/2){
+	// 		resultdisplay.textContent = 'Congratulations, You found them All.';
+	// 	}
+	// }
+	
+	// function flipcard(){
+	// 	let cardId = this.getAttribute('data-id');   //data-id of card
+	// 	cardsChosen.push(cardArray[cardId].name);
+	// 	cardsChosenId.push(cardId);
+	// 	this.setAttribute('src', cardArray[cardId].img);
+	// 	if (cardsChosen === 2){
+	// 		setTimeout(checkMatches, 500); 
+	// 	}
+	// 	// console.log(cardsChosenId);
+	// };
+	
+	
+	
+	// }) -->
